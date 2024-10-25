@@ -15,32 +15,4 @@ const CustomPassword = Password<DataModel>({
 
 export const { auth, signIn, signOut, store } = convexAuth({
   providers: [CustomPassword, Google, GitHub],
-  // providers: [
-  //   CustomPassword,
-  //   Google({
-  //     profile(googleProfile, tokens) {
-  //       return {
-  //         name: googleProfile.name,
-  //         email: googleProfile.email,
-  //         image: googleProfile.avatar_url,
-
-  //         likedPosts: [],
-  //         followingThread: [],
-  //         savedPosts: [],
-  //       };
-  //     },
-  //   }),
-  //   GitHub({
-  //     profile(githubProfile, tokens) {
-  //       return {
-  //         name: githubProfile.name || "",
-  //         email: githubProfile.email || "",
-  //         image: githubProfile.avatar_url || "",
-  //         likedPosts: [],
-  //         followingThread: [],
-  //         savedPosts: [],
-  //       };
-  //     },
-  //   }),
-  // ],
 });

@@ -12,8 +12,8 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { FaGithub, FaGoogle } from "react-icons/fa";
 import { SignInFlow } from "./types";
-import { useAuthActions } from "@convex-dev/auth/react";
 import { TriangleAlert } from "lucide-react";
+import { useAuthActions } from "@convex-dev/auth/react";
 
 interface SignInCardProps {
   setState: (state: SignInFlow) => void;
