@@ -114,7 +114,7 @@ const SignUpCard: React.FC<SignUpCardProps> = ({ setState }) => {
           </Button>
         </form>
         <Separator />
-        <div className="flex flex-col gap-y-2.5">
+        <div className="flex flex-col gap-y-2.5 text-black">
           <Button
             disabled={pending}
             onClick={() => handleProviderSignUp("google")}

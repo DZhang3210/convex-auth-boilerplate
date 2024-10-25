@@ -90,7 +90,7 @@ const SignInCard: React.FC<SignInCardProps> = ({ setState }) => {
           </Button>
         </form>
         <Separator />
-        <div className="flex flex-col gap-y-2.5">
+        <div className="flex flex-col gap-y-2.5 text-black">
           <Button
             disabled={pending}
             onClick={() => handleProviderSignIn("google")}

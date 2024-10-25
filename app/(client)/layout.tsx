@@ -1,3 +1,4 @@
+import Navbar from "@/components/fixed/navbar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,5 +11,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <div>{children}</div>;
+  return (
+    <div>
+      <Navbar />
+      {children}
+    </div>
+  );
 }
