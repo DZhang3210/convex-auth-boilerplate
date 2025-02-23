@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { FaGithub, FaRedditAlien } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { SignInFlow } from "./types";
 import { useAuthActions } from "@convex-dev/auth/react";
 import { TriangleAlert } from "lucide-react";

@@ -1,5 +1,4 @@
 "use client";
-import { FaReddit } from "react-icons/fa";
 import Link from "next/link";
 import UserButton from "../auth/user-button";
 
